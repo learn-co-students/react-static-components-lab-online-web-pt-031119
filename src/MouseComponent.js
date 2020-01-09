@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import EinsteinQuoteComponent from './EinsteinQuoteComponent.js'
+
+
 
 export default class MouseComponent extends Component {
 
@@ -10,6 +13,7 @@ export default class MouseComponent extends Component {
     return (
       <div className="bar" id="mouse">
         <canvas id="canvas"></canvas>
+        
       </div>
     )
   }
